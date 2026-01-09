@@ -5,11 +5,17 @@ A production-ready Python implementation of an adaptive volatility-targeted trad
 This system combines time series forecasting with volatility modeling to generate trading signals and dynamically size positions based on predicted market conditions. The strategy aims to maximize risk-adjusted returns while protecting capital during periods of high volatility.
 
 *Adaptive Forecasting*: Auto-optimized ARIMA models for return prediction
+
 *Volatility Modeling*: GARCH models with Student's t-distribution for realistic tail risk
+
 *Walk-Forward Testing*: Realistic backtesting with periodic model refitting
+
 *Risk Management*: Multi-layered filtering system including conviction thresholds and volatility limits
+
 *Position Sizing*: Dynamic volatility-targeted position sizing
+
 *Hyperparameter Optimization*: Automated threshold tuning for Sharpe ratio maximization
+
 *Live Data Integration*: Fetches real-time market data via Yahoo Finance
 
 ## Architecture
